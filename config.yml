@@ -1,0 +1,13 @@
+
+api:
+  address: localhost:8080
+  cert_file:
+  key_file:
+
+
+
+database:
+  address: localhost:3306
+  username: root
+  password: rootpw
+  db_name: ics_ctf
