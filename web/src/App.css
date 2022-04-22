@@ -57,8 +57,35 @@ form label {
     padding: 0
 }
 
-.navbar {
+nav a:hover{
+    color: rgb(255, 251, 251);
+    background-color: rgb(59, 59, 59);
+}
+
+nav a:active{
+    color: rgb(59, 59, 59);
     background-color: #3c8b3c;
+}
+
+nav a:focus{
+    background-color: rgb(66, 65, 65);
+}
+
+.color-nav {
+    margin: auto;
+    background-color: #3c8b3c;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    background-color: #1f1e1e;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    color: rgb(255, 254, 254);
 }
 
 .right-label {
