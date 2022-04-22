@@ -30,3 +30,9 @@ or
 
     yarn start
 ```
+<<<<<<< HEAD
+=======
+.. happy Coding..!!
+
+blank">IZEMSPOT</a>.
+>>>>>>> cf23125d9f84275fb9df2a38a8cc4dfcccc8659b
