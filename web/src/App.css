@@ -26,6 +26,8 @@ body {
 }
 
 .logo {
+    margin: -50px;
+    padding: 10px;
     width: 500px;
     height: 249px;
     overflow: visible;
@@ -43,10 +45,11 @@ body {
 
 form {
     display: inline-block;
+    
     background: #1f1e1e;
     border: 1px solid #1f1e1e;
     padding: 2rem;
-    margin: 2rem 0 1rem 0
+    margin: 0rem 0 1rem 0
 }
 
 form label {
@@ -71,11 +74,6 @@ nav a:focus{
     background-color: rgb(66, 65, 65);
 }
 
-.color-nav {
-    margin: auto;
-    background-color: #3c8b3c;
-}
-
 .navbar-nav {
     margin: auto;
 }
@@ -88,11 +86,98 @@ nav a:focus{
     color: rgb(255, 254, 254);
 }
 
+.nav-post {
+    margin: auto;
+    background-color: #3c8b3c;
+}
+
 .right-label {
     float: right;
     color: rgb(175, 175, 174);
     cursor: pointer
-    
+}
+
+.info-text h2 {
+    margin: 50px;
+}
+
+.info-text p {
+    margin: 20px;
+}
+
+.info-text div, h2, p {
+    color: rgb(247, 236, 236);
+}
+
+.btn {
+    text-align: center;
+    width: 15%;
+    margin: 200px;
+    padding: auto;
+    height: 100px;
+    float: none;
+    background-color: #3c8b3c;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+    color: white;
+    height: 0;
+    font-size: 36px;
+}
+
+.btn-left {
+    text-align: center;
+    width: 15%;
+    margin-top: 200px;
+    margin-left: 250px;
+    padding: auto;
+    height: 100px;
+    float: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3c8b3c;
+}
+
+.btn-t1 {
+    text-align: center;
+    width: 10vh;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 0px;
+    padding: auto;
+    height: max-content;
+    float: inline-start;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1f1e1e;
+}
+
+.btn-t1:hover {
+    color: #3c8b3c;
+}
+
+.btn-t {
+    text-align: center;
+    width: 10vh;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 0px;
+    padding: auto;
+    height: max-content;
+    float: inline-start;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1f1e1e;
+}
+
+.btn-t:hover {
+    color: #3c8b3c;
 }
 
 input {
@@ -101,6 +186,23 @@ input {
     border-radius: 5px;
     outline: none;
     border: none
+}
+
+#send_btn {
+    display: block;
+    float: right;
+    width: 100%;
+    margin: 0;
+    padding: .3rem;
+    border: none;
+    background: #3c8b3c;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#send_btn:hover {
+    background: #333;
+    transition: all .5s
 }
 
 #sub_btn {
@@ -125,16 +227,47 @@ footer p {
     font-size: .9rem
 }
 
-/***    Register Page     ***/
 #checkbox {
     width: 1rem
 }
+
 #reg_btn{
     display: block;
     float: right;
     width: 45%;
     margin: 0;
     padding: .3rem;
+    border: none;
+    background: #3c8b3c;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#reg_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+#team_btn1 {
+    display: block;
+    float: left;
+    width: 200px;
+    margin-top: 125px;
+    margin-left: 700px;
+    padding: 15px;
+    border: none;
+    background: #3c8b3c;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#team_btn2 {
+    display: block;
+    float: right;
+    width: 200px;
+    margin-top: 125px;
+    margin-right: 700px;
+    padding: 15px;
     border: none;
     background: #3c8b3c;
     color: #fff;

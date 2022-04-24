@@ -1,13 +1,23 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
-export default function HomePage() {
+import '../../App.css'
+import NavbarPostLog from './NavbarPostLogin'
+import Information from './Information'
+
+export default function Homepage() {
     return (
-        <div className="text-center">
-            <h1 className="main-title home-page-title">welcome to our app</h1>
-            <Link to="/">
-                <button className="primary-button">Log out</button>
-            </Link>
-        </div>
+      <header style={ HeaderStyle }>      
+          <NavbarPostLog/>
+          <Information/>
+      </header>
     )
+}
+
+const HeaderStyle = {
+    width: "100%",
+    height: "100vh",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundColor: "#1f1e1e",
 }

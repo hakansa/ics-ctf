@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import '../../App.css'
 
@@ -12,7 +11,7 @@ export default function RegisterForm() {
                     <input type="text" name="username" required />
                 </p>
                 <p>
-                    <label>E-mail address</label><br/>
+                    <label>E-mail</label><br/>
                     <input type="text" name="e-mail" required />
                 </p>
                 <p>
@@ -20,8 +19,8 @@ export default function RegisterForm() {
                     <input type="password" name="password" required />
                 </p>
                 <p>
-                    <label>Please write your password again.</label><br/>
-                    <input type="password" name="password" required />
+                    <label>Confirm Password</label><br/>
+                    <input type="password" name="password2" required />
                 </p>
 
                 <button id="reg_btn" type="submit">Register</button>

@@ -1,9 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import '../../App.css'
 import BackgroundImage from '../../assets/images/ics_logo.png'
-import SignInPage from './LoginPage'
 import NavbarTop from './Navbar'
 import RegisterForm from './RegisterForm'
 

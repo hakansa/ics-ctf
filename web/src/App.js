@@ -1,26 +1,34 @@
-import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import LandingPage from './components/pages/LandingPage'
-import LoginPage from './components/pages/LoginPage'
-import RegisterPage from './components/pages/RegisterPage'
-import ForgetPasswordPage from './components/pages/ForgetPasswordPage'
-import HomePage from './components/pages/HomePage'
+import LandingPage from "./components/pages/LandingPage";
+import LoginPage from "./components/pages/LoginPage";
+import RegisterPage from "./components/pages/RegisterPage";
+import ForgetPasswordPage from "./components/pages/ForgetPasswordPage";
+import HomePage from "./components/pages/HomePage";
+import ChallengesPage from "./components/pages/Challenges";
+import TeamPage from "./components/pages/Team";
+import JoinTeamPage from "./components/pages/JoinTeam";
+import CreateTeamPage from "./components/pages/CreateTeam";
+import TeamExistPage from "./components/pages/TeamExist";
 
-import './App.css'
+import "./App.css";
 
 export default function App() {
-    return (
-        <Router>
-            <div>
-                <Switch>
-                    <Route exact path="/" component={ LandingPage } />
-                    <Route path="/login" component={ LoginPage } />
-                    <Route path="/register" component={ RegisterPage } />
-                    <Route path="/forget-password" component={ ForgetPasswordPage } />
-                    <Route path="/home" component={ HomePage } />
-                </Switch>
-            </div>
-        </Router>
-    )
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/" component={LandingPage} />
+        <Route path="/login" component={LoginPage} />
+        <Route path="/register" component={RegisterPage} />
+        <Route path="/forget-password" component={ForgetPasswordPage} />
+        <Route path="/home" component={HomePage} />
+        <Route path="/Challenges" component={ChallengesPage} />
+        <Route path="/Team" component={TeamPage} />
+        <Route path="/JoinTeam" component={JoinTeamPage} />
+        <Route path="/CreateTeam" component={CreateTeamPage} />
+        <Route path="/TeamExist" component={TeamExistPage} />
+      </Switch>
+    </Router>
+  );
 }

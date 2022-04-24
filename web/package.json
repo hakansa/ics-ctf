@@ -1,8 +1,10 @@
 {
-  "name": "react-login-page",
+  "name": "react-ctf-platform",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
     "bootstrap": "^5.1.3",
     "react": "^16.8.6",
     "react-bootstrap": "^2.2.3",
