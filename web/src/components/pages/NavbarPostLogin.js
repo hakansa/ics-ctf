@@ -25,7 +25,7 @@ export default function NavbarPostLog() {
         <Navbar.Collapse id="basic-navbar-nav" />
       </Container>
 
-      <Nav.Link className="text-right" href="/">
+      <Nav.Link className="text-right" href="/Profile">
         Profile
       </Nav.Link>
 

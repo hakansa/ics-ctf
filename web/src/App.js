@@ -13,7 +13,9 @@ import CreateTeamPage from "./components/pages/CreateTeam";
 import TeamExistPage from "./components/pages/TeamExist";
 import ChallengePage from "./components/pages/ExChallenge"
 import ScoreboardPage from "./components/pages/Scoreboard";
+import ProfilePage from "./components/pages/ProfilePage";
 import "./App.css";
+import TeamsPage from "./components/pages/Teams";
 
 export default function App() {
   return (
@@ -31,6 +33,8 @@ export default function App() {
         <Route path="/TeamExist" component={TeamExistPage} />
         <Route path="/Challenge" component={ChallengePage} />
         <Route path="/Scoreboard" component={ScoreboardPage} />
+        <Route path="/Profile" component={ProfilePage} />
+        <Route path="/Teams" component={TeamsPage} />
       </Switch>
     </Router>
   );

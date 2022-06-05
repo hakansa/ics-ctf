@@ -164,6 +164,20 @@ h1 {
     background-color: #3c8b3c;
 }
 
+.btn-left1 {
+    text-align: center;
+    width: 15%;
+    margin-top: 200px;
+    margin-left: 250px;
+    padding: auto;
+    height: 100px;
+    float: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #646664;
+}
+
 .btn-t1 {
     text-align: center;
     width: 10vh;
@@ -266,6 +280,11 @@ footer p {
 }
 
 #reg_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+#settings:hover {
     background: #333;
     transition: all .5s
 }

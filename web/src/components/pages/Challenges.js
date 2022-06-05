@@ -1,5 +1,4 @@
 import React from 'react'
-
 import NavbarPostLog from './NavbarPostLogin'
 import '../../App.css'
 import { Link } from 'react-router-dom'
@@ -22,22 +21,31 @@ export default function ChallengesPage() {
                     Challenge #1
                 </button>
             </Link>
-            <button type='button' className='btn-left'>
-                Challenge #2
-            </button>
-            <button type='button' className='btn-left'>
-                Challenge #3
-            </button>
-            <button type='button' className='btn-left'>
-                Challenge #4
-            </button>
-            <button type='button' className='btn-left'>
-                Challenge #5
-            </button>
-            <button type='button' className='btn-left'>
-                Challenge #6
-            </button>
+            <Link to="/Challenge">
+                <button type='button' className='btn-left1'>
+                    Challenge #2
+                </button>
+            </Link>
+            <Link to="/Challenge">
+                <button type='button' className='btn-left1'>
+                    Challenge #3
+                </button>
+            </Link>
+            <Link to="/Challenge">
+                <button type='button' className='btn-left1'>
+                    Challenge #4
+                </button>
+            </Link>
+            <Link to="/Challenge">
+                <button type='button' className='btn-left1'>
+                    Challenge #5
+                </button>
+            </Link>
+            <Link to="/Challenge">
+                <button type='button' className='btn-left1'>
+                    Challenge #6
+                </button>
+            </Link>
         </header>
-        
     )
 }
