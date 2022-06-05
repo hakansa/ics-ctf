@@ -1,0 +1,18 @@
+ICSCTF’22 Kurallar ve Yasaklanan Eylemler
+ICSCTF’22 Diskalifiye ile Sonuçlanacak Yasaklanan Eylemler:
+● Erişim bilgileri verilen, soru amaçlı hazırlanmış yarışma kapsamı dışında herhangi bir
+sunucuya ya da makineye saldırmak.
+● CTF altyapısına DoS saldırıları gerçekleştirmek.
+● Kasıtlı olarak diğer takımların CTF bayraklarını bulmasını engellemek.
+● Bayrakların değiştirilmesi.
+● Yarışma sona ermeden sorularla ve bayraklarla alakalı bilgi paylaşımı.
+● CTF altyapısına erişimi başka biriyle paylaşmak.
+● Başka takımlardan sorular hakkında bilgi çalmaya çalışmak.
+● Puan tablosunun değiştirilmesi.
+Yarışma yetkilileriyle iletişime geçmeniz gereken durumlar:
+● Eğer bayrağı bulduğunuzu düşünüyorsanız ve sistem tarafından reddediliyor ise
+yarışma yetkilileriyle iletişime geçebilirsiniz.
+● Takımınızla ilgili puan tablosunda herhangi bir hata yapıldığını düşünüyorsanız
+yarışma yetkilileriyle iletişime geçebilirsiniz.
+● Sorularla alakalı teknik bir hata yaşamanız durumunda hatayı detaylı bir şekilde
+yarışma yetkililerine bildirmeniz beklenmektedir.
