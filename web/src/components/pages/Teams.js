@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import NavbarPostLog from "./NavbarPostLogin";
 import "../../App.css";
 import { makeStyles } from "@material-ui/core/styles";

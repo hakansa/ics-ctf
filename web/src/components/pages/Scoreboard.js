@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import {
   BarChart,
   Bar,
@@ -64,6 +64,7 @@ const data = [
 ];
 
 export default function ScoreboardPage() {
+
   const classes = useStyles();
   return (
     <header style={HeaderStyle}>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import LandingPage from "./components/pages/LandingPage";
@@ -14,10 +14,13 @@ import TeamExistPage from "./components/pages/TeamExist";
 import ChallengePage from "./components/pages/ExChallenge"
 import ScoreboardPage from "./components/pages/Scoreboard";
 import ProfilePage from "./components/pages/ProfilePage";
-import "./App.css";
 import TeamsPage from "./components/pages/Teams";
+import { ButtonContext } from "./components/pages/ButtonContext";
+import "./App.css";
 
 export default function App() {
+  const {solved} = useContext(ButtonContext);
+  console.log(solved);
   return (
     <Router>
       <Switch>

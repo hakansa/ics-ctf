@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useContext} from "react";
 import NavbarPostLog from './NavbarPostLogin'
 import '../../App.css'
 import { Link } from 'react-router-dom'
+import { ButtonContext } from "./ButtonContext";
 
 const HeaderStyle = {
     width: "100%",
@@ -13,11 +14,13 @@ const HeaderStyle = {
 }
 
 export default function ChallengesPage() {
+    const {solved} = useContext(ButtonContext);
+    console.log(solved);
     return (
         <header style={HeaderStyle}>
             <NavbarPostLog/>
             <Link to="/Challenge">
-                <button type='button' className='btn-left'>
+                <button type='button' className={solved ? 'btn-left' : 'btn-left1'}>
                     Challenge #1
                 </button>
             </Link>
@@ -49,3 +52,4 @@ export default function ChallengesPage() {
         </header>
     )
 }
+
