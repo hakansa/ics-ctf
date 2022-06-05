@@ -2,6 +2,7 @@ import React from 'react'
 
 import NavbarPostLog from './NavbarPostLogin'
 import '../../App.css'
+import { Link } from 'react-router-dom'
 
 const HeaderStyle = {
     width: "100%",
@@ -16,9 +17,11 @@ export default function ChallengesPage() {
     return (
         <header style={HeaderStyle}>
             <NavbarPostLog/>
-            <button type='button' className='btn-left'>
-                Challenge #1
-            </button>
+            <Link to="/Challenge">
+                <button type='button' className='btn-left'>
+                    Challenge #1
+                </button>
+            </Link>
             <button type='button' className='btn-left'>
                 Challenge #2
             </button>

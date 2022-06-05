@@ -1,4 +1,5 @@
 import React from 'react'
+import MTable from './MTable'
 
 import NavbarPostLog from './NavbarPostLogin'
 import '../../App.css'
@@ -29,6 +30,7 @@ export default function TeamExistPage() {
             <button type='button' className='btn-t'>
                 Leave Team
             </button>
+            <MTable/>
 
         </header>
     )

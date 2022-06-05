@@ -4,7 +4,7 @@ import "../../App.css";
 
 export default function Information() {
     return (
-      <div className="info-text">
+      <div className="info-text1">
           <h2 style={{textAlign: "center"}}>WELCOME TO CYBERSEC CAPTURE THE FLAG EVENT</h2>
           <h2 style={{textAlign: "center"}}>Event Details:</h2>
           <p style={{textAlign: "center"}}>The event contains 10 programming questions in different sections.</p>
